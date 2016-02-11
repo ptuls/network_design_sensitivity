@@ -55,11 +55,3 @@ class SANM(object):
         # run IPF
         IPF().run(tm_generated, self.row_sums, self.col_sums, tol=tol)
         return tm_generated
-
-
-
-if __name__ == "__main__":
-    tm_predicted = np.matrix("0.1 0.5; 0.3 0.8")
-    sanm = SANM(tm_predicted)
-
-    print(sanm.generate(0.1))
