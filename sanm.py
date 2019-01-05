@@ -1,3 +1,5 @@
+#!/usr/bin python3
+# -*- coding: utf-8 -*-
 try:
     import numpy as np
 except ImportError:
